@@ -1,0 +1,16 @@
+{
+  "name": "flowzint-ai",
+  "version": "1.0.0",
+  "description": "FlowZint AI — B2B Lead Intelligence & Sales Automation",
+  "scripts": {
+    "dev:s1": "cd service-1-lead && npm run dev",
+    "dev:s2": "cd service-2-agent && npm run dev",
+    "dev:s3": "cd service-3-crm && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd service-1-lead && npm install && cd ../service-2-agent && npm install && cd ../service-3-crm && npm install && cd ../frontend && npm install",
+    "dev": "echo 'Run each service in a separate terminal: npm run dev:s1 | dev:s2 | dev:s3 | dev:frontend'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
